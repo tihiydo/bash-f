@@ -17,9 +17,6 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 # Clone repo
 sudo rm -rf msdr_client
-sudo mkdir msdr_client
+mkdir msdr_client
 cd msdr_client
 sudo git clone https://tihiydo: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@github.com/tihiydo/msdr_client.git .
-sudo chmod +x ./start.sh
-
-sudo ./start.sh
